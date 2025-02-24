@@ -1,0 +1,26 @@
+/* styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.profile-image {
+  width: 20vw; /* 20% dari lebar layar */
+  height: 20vw; /* Pastikan tinggi sama agar tetap bulat */
+  max-width: 150px; /* Batasi ukuran maksimal */
+  max-height: 150px;
+  border-radius: 50%; /* Membuat bentuk bulat */
+  border: 5px solid white; /* Border putih */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Efek shadow */
+  transition: transform 0.3s ease-in-out; /* Animasi smooth */
+}
+
+.profile-image:hover {
+  transform: scale(1.1); /* Membesar saat cursor mendekat */
+}
