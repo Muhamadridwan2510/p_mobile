@@ -1,7 +1,7 @@
 // components/Hero.js
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
-import profilridwan from "./../../public/img/hero.jpg";
+import profilridwan from "./../../public/img/p3.png";
 export default function Hero() {
   return (
     <div className="pt-24 pb-16 md:pt-32 md:pb-24 bg-gradient-to-r from-indigo-50 to-purple-50">

@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { ExternalLink } from "lucide-react";
 import Image from "next/image";
-import profilridwan from "./../../public/img/image.png";
+import profilridwan from "./../../public/img/p4.jpg";
 
 export default function Portfolio() {
   const [filter, setFilter] = useState("all");
